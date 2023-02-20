@@ -1,0 +1,13 @@
+class  for_1
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Before for loop");
+		for(int i=0;i<=0 ||i>=0;i++)
+		{
+		System.out.println("Inside loop");
+		}
+		System.out.println("After loop");
+
+	}
+}

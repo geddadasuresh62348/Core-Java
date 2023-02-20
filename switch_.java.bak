@@ -1,0 +1,37 @@
+class switch_ 
+{
+	public static void main(String[] args) 
+	{
+		int i=5;
+		switch(i)
+		{
+			case 0:
+				System.out.println("i is zero");
+			break;
+
+			case 1:
+				System.out.println("i is one");
+			break;
+
+			case 2:
+				System.out.println("i is two");
+			break;
+
+			default:
+				System.out.println("please enter number between 0 and 2");
+			break;
+			}
+		char c='A';
+		switch(c){
+			case 'A':
+				System.out.println("AAA");
+				break;
+			case 'B':
+				System.out.println("BBB");
+				break;
+			default:
+				System.out.println("default");
+				break;
+		}
+	}
+}

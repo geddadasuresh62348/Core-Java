@@ -1,0 +1,29 @@
+class switch_2 
+{
+	public static void main(String[] args) 
+	{
+		final int i=5,j=10,k=15,l=20; // In switch ,all case values must be either direct constants or final variables
+		switch(10)
+		{
+			case i:
+				System.out.println("5");
+			break;
+
+			case j:
+				System.out.println("10");
+			break;
+
+			case k:
+				System.out.println("15");
+			break;
+
+			case l:
+				System.out.println("20");
+			break;
+
+			default:
+				System.out.println("please enter valid number");
+			break;
+			}
+	}
+}
